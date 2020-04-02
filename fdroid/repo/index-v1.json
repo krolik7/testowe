@@ -1,0 +1,46 @@
+{
+  "repo": {
+    "timestamp": 1585864718000,
+    "version": 19,
+    "name": "repo 1",
+    "icon": "default-repo-icon.png",
+    "address": "https://raw.githubusercontent.com/krolik7/testowe/master/fdroid/repo",
+    "description": "testo",
+    "mirrors": [
+      "https://raw.githubusercontent.com/krolik7/testowe/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "suggestedVersionCode": "1",
+      "license": "Unknown",
+      "name": "RUTMath",
+      "added": 1585864513000,
+      "icon": "com.hexbit.additionandsubtraction.1.png",
+      "packageName": "com.hexbit.additionandsubtraction",
+      "lastUpdated": 1585864519000
+    }
+  ],
+  "packages": {
+    "com.hexbit.additionandsubtraction": [
+      {
+        "added": 1585864519000,
+        "apkName": "app-release.apk",
+        "hash": "aeeef279129fdc008bc39a66a9ea38059aa5cee6f0ab52d8b7a16c37afa1197a",
+        "hashType": "sha256",
+        "minSdkVersion": "23",
+        "packageName": "com.hexbit.additionandsubtraction",
+        "sig": "186dec755829080871af7c22a8d9bbdd",
+        "signer": "baf711f62161d6d404f4eb568aaffc1769d6df0e287a4906588818cdcbe7eb46",
+        "size": 4032972,
+        "targetSdkVersion": "29",
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ]
+  }
+}
